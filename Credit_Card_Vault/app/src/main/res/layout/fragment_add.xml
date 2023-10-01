@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Add">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/title_input"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="0dp"
+                android:background="#4C4939"
+                android:hint="Title"
+                android:inputType="text"
+                android:textColor="#eeeeee"
+                android:textColorHint="#aaaaaa"
+                android:textColorLink="#aaaaaa"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/crd_nmbr_input"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="#4C4939"
+                android:hint="Card Number"
+                android:inputType="text"
+                android:textColor="#eeeeee"
+                android:textColorHint="#aaaaaa"
+                android:textColorLink="#aaaaaa"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="88dp"
+                android:layout_marginRight="0dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/expiry_input"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="#4C4939"
+                android:hint="Expiration Date"
+                android:inputType="text"
+                android:textColor="#eeeeee"
+                android:textColorHint="#aaaaaa"
+                android:textColorLink="#aaaaaa"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="152dp"
+                android:layout_marginRight="0dp"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/cvn_input"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="#4C4939"
+                android:hint="CVN"
+                android:inputType="text"
+                android:textColor="#eeeeee"
+                android:textColorHint="#aaaaaa"
+                android:textColorLink="#aaaaaa"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="216dp"
+                android:layout_marginRight="0dp"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/crdhldr_input"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="#4C4939"
+                android:hint="Cardholder Name"
+                android:inputType="text"
+                android:textColor="#eeeeee"
+                android:textColorHint="#aaaaaa"
+                android:textColorLink="#aaaaaa"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="280dp"
+                android:layout_marginRight="0dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="364dp"
+                android:layout_marginBottom="50dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/add_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="Add" />
+
+                <Button
+                    android:id="@+id/clear_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="Clear" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

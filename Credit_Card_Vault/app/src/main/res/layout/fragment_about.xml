@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.About">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Credit Card Vault"
+                android:textSize="16sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Developed by Maxim Bortnikov"
+                android:textSize="16sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Made with the help of the ChatGPT"
+                android:textSize="16sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://github.com/Northstrix/Credit_Card_Vault_Android_App"
+                android:textSize="16sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Credit:"
+                android:textSize="16sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://pixabay.com/photos/atlanta-georgia-city-cities-1584094/"
+                android:textSize="16sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://unsplash.com/photos/hXwP1UypUEI"
+                android:textSize="16sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://unsplash.com/photos/xix0hq5q_Ss"
+                android:textSize="16sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://unsplash.com/photos/uffQnKuJ-hc"
+                android:textSize="16sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://unsplash.com/photos/FqxBcH4sr8A"
+                android:textSize="16sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://unsplash.com/photos/tNklhdD_D9o"
+                android:textSize="16sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/open_rep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="https://unsplash.com/photos/mvsF_j8AGFg"
+                android:textColor="#eeeeee"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://www.youtube.com/watch?v=hAdW6YRCCIA"
+                android:textSize="16sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://www.youtube.com/watch?v=MC-sSt5VDBc"
+                android:textSize="16sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://www.youtube.com/watch?v=017P_Nu0zLE"
+                android:textSize="16sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://www.youtube.com/watch?v=pIKdHeOjYNw"
+                android:textSize="16sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://www.youtube.com/watch?v=bgIUdb-7Rqo"
+                android:textSize="16sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="24sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/op_rep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Go to the GitHub repository" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="24sp"
+                android:textColor="#eeeeee"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
