@@ -9,7 +9,7 @@ This application is made for educational purposes only. Despite having well-func
 This application is provided with no warranty or guarantees of any kind. Use it at your own risk!
 </br>
 Made with the help of the ChatGPT
-</br>
+</br></br>
 ![image text](https://github.com/Northstrix/Credit_Card_Vault_Android_App/blob/main/Pictures/View%20Credit%20Card.png)
 ![image text](https://github.com/Northstrix/Credit_Card_Vault_Android_App/blob/main/Pictures/View%20Credit%20Card%20(horizontal).png)
 </br>
